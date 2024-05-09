@@ -1,0 +1,129 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/profile.css);
+@import url(../blocks/card.css);
+@import url(../blocks/footer.css);
+
+@media screen and (max-width: 1100px) {
+  .page__section {
+    margin: 0 20px;
+    max-width: calc(100% - 40px);
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .footer__copyright {
+    width: 282px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #545454;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .header__image {
+    width: 126px;
+    height: 24px;
+  }
+
+  .profile__title {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 26.63px;
+    font-weight: 500;
+    width: 196px;
+    height: 22px;
+  }
+
+  .profile__info {
+    align-items: center;
+  }
+
+  .profile__description {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+  }
+  .profile__edit-button {
+    height: 18px;
+    width: 18px;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+  }
+
+  .profile__add-button {
+    margin-left: 20px;
+    width: 65px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page__content {
+    margin: 28px 19px 0;
+  }
+
+  .header.page__section {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header__image {
+    padding-bottom: 32px;
+    margin: 0;
+  }
+
+  .profile {
+    background-color: black;
+    flex-direction: column;
+  }
+
+  .profile__image {
+    margin: 0;
+  }
+
+  .profile__edit-button {
+    margin: 4px 0px 10px 10px;
+  }
+
+  .profile__title {
+    margin: 0;
+    text-wrap: nowrap;
+    display: flex;
+    align-items: center;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .profile__description {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 36px;
+    text-align: center;
+  }
+
+  .profile__add-button {
+    margin: 0;
+    width: 282px;
+  }
+
+  .card__list {
+    padding-top: 36px;
+  }
+}

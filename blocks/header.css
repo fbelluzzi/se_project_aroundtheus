@@ -1,0 +1,10 @@
+.header {
+  margin-bottom: 40px;
+  border-bottom: 0.25px solid rgba(247, 244, 244, 0.2);
+}
+
+.header__image {
+  width: 173px;
+  height: 33px;
+  margin-bottom: 41px;
+}
