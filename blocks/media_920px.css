@@ -1,0 +1,8 @@
+@media screen and (max-width: 920px) {
+  .footer__copyright {
+    max-width: 282px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -22,6 +22,7 @@
 }
 
 .profile__description {
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
@@ -43,9 +44,7 @@
   height: 24px;
   width: 24px;
   grid-area: button;
-  margin: 0;
   margin: 15px 0 9px 18px;
-  border: solid;
   border-color: white;
   border-width: 1px;
   transition: opacity 0.3s ease;
@@ -54,6 +53,7 @@
 
 .profile__edit-button:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .profile__add-button {
@@ -70,4 +70,5 @@
 
 .profile__add-button:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
