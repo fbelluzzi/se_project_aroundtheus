@@ -18,3 +18,7 @@ This project design is a landing page with a responsive design. This allows elem
 **Project Video**
 
 - [Link to project video recap] (https://drive.google.com/file/d/1yqvSnc0oC3fOQM5Yc-GNA3dHin2omzuj/view?usp=sharing)
+
+**Project Website**
+
+- [Link to project website] https://fbelluzzi.github.io/se_project_aroundtheus/
