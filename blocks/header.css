@@ -26,10 +26,11 @@
   .header.page__section {
     margin: 0;
     padding: 0;
+    max-width: 100%;
   }
 
   .header__image {
-    padding-bottom: 32px;
+    padding: 0px 27px 32px;
     margin: 0;
   }
 }
